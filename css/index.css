@@ -1,45 +1,97 @@
+/*///Common Section styling///*/
+
 body {
 	margin: 0;
 	padding: 0;
 	border: 0;
 	background-clip: border-box;
-	background: #729fcf;
-	background-attachment: fixed;
-	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    font-family: monaco, Consolas, 'Lucida Console', monospace;
+	background: white;
 }
 
 .section {
 	padding: 10px;
 	display: flex;
+	flex-direction: vertical;
 	justify-content: center;
+	align-items: center;
+	align-content: center;
 	height: 100vh;
 }
 
 .container {
-	/*background: white; rgb(210,180,140);*/
+	background: #e7eae0; /*rgb(210,180,140);*/
 	width: 80%;
 	height: 20%;
 	display: flex;
 	justify-content: center;
-	border-radius: 25px;
+	align-items: center;
+	align-content: center;
 	padding: 10px;
-	border-style: solid;
-	border-color: #000;
-	border-width: 4px
 }
+
+/*///End common section///*/
+
+/*///Nav-bar related Styling///*/
+#nav-bar {
+  position: fixed;
+  /* Flexbox container */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  /* End flexbox */
+  background-color: #e7eae0;
+
+  /* Sizing */
+  width: 100vw;
+  height: 46px;
+  /* End Sizing */
+
+  padding-bottom: 2px;
+  border-bottom: 2px solid white;
+
+  z-index: 2;
+}
+
+.nav-bar > .nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  width: 60%;
+  height: 100%;
+}
+
+.nav-items > .nav-item {
+  /* Flexbox container */
+  /* This vertically aligns the text in nav-item */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  /* End Flexbox container */
+
+  /* Sizing */
+  height: 100%;
+  /* End Sizing */
+  text-align: center;
+  flex-grow: 1;
+
+  cursor: pointer;
+}
+/*///End Nav-bar///*/
+
+/*///Landing page related CSS///*/
 
 #landing-container {
-	width: 50%;
-	position: absolute;
-	top: 45%;
-	left: 40%;
+	width: 40%;
 }
 
-.site-intro >.intro-text {
+.site-intro > .intro-text {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -49,13 +101,8 @@ body {
 }
 
 @media (max-width : 768px) {
-  .site-intro >.intro-text {
+  .site-intro > .intro-text {
     font-size: 1.5em;
   }
 }
-
-#landing-page {
-	background: url('../img/clouds.svg');
-	height: 100vh;
-	width: 100%;
-}
+/*///End Landing Page///*/
