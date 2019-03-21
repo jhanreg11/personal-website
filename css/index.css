@@ -57,7 +57,7 @@ body {
   align-items: center;
   align-content: center;
 
-  width: 60%;
+  width: 40%;
   height: 100%;
 }
 
@@ -83,7 +83,27 @@ body {
 
 /*///Footer///*/
 
+#footer {
+  float: right;
+  bottom: 0;
+  position: fixed;
+  display: flex;
+}
 
+#footer-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.footer-item {
+  margin-right: 1.5vh;
+  margin-bottom: 1vh;
+  max-height: 5vh;
+  cursor: pointer;
+}
 /*///End Footer///*/
 
 /*///Landing page related CSS///*/
