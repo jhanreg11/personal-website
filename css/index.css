@@ -6,6 +6,7 @@ body {
 	border: 0;
 	background-clip: border-box;
 	background: white;
+  font-family: monospace;
 }
 
 .section {
@@ -34,27 +35,21 @@ body {
 /*///Nav-bar related Styling///*/
 #nav-bar {
   position: fixed;
-  /* Flexbox container */
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  align-content: center;
-  /* End flexbox */
-  background-color: #e7eae0;
-
-  /* Sizing */
+  display: flex-box;
+  top: 0;
   width: 100vw;
-  height: 46px;
-  /* End Sizing */
+  height: 7vh;
+  background: #e7eae0;
+  border-bottom-style: solid;
+  border-bottom-color: #657a35;
 
-  padding-bottom: 2px;
-  border-bottom: 2px solid white;
 
   z-index: 2;
 }
 
-.nav-bar > .nav-items {
+#nav-bar > .nav-items {
+  float: right;
+
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -77,10 +72,10 @@ body {
 
   /* Sizing */
   height: 100%;
+  font-size: 1.5em;
   /* End Sizing */
   text-align: center;
-  flex-grow: 1;
-
+  flex-grow: 1; 
   cursor: pointer;
 }
 /*///End Nav-bar///*/
@@ -89,6 +84,7 @@ body {
 
 #landing-container {
 	width: 40%;
+  height: 10%;
 }
 
 .site-intro > .intro-text {
