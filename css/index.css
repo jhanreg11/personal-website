@@ -109,8 +109,7 @@ body {
 /*///Fun Fact///*/
 
 #fun-fact {
-  visibility: hidden;
-  position: fixed;
+  position: absolute;
 
   display: flex;
   flex-direction: column;
@@ -118,10 +117,14 @@ body {
   align-items: center;
   align-content: center;
 
-  max-width: 5vw;
+  max-width: 10vw;
   max-height: 5vh;
   right: 10vw;
   top: 28vh;
+}
+
+#fact-title {
+  font-weight: bold;
 }
 
 @media(max-width: 768px) {

@@ -1,6 +1,6 @@
 $(document).ready(function(){
   introScreen();
-  setTimeout(showFunFact, 30000)
+  setInterval(showFunFact, 10000)
 });
 
 
@@ -86,21 +86,24 @@ function showFunFact() {
   var num = Math.floor(Math.random() * 10) + 1
   var varName = 'fact' + num
 
-  $('#fun-fact').fadeOut(100, function() {
+  $('#fun-fact').fadeOut(1000, function() {
     $('#fact-title').html(window[varName].name)
     $('#fact-body').html(window[varName].fact)
+    $('#fun-fact').css('visibility:', '')
   })
+
+  setTimeout(3000)
 
   var colliding = true
   while (colliding) {
     var right = Math.random() * 95
     var bottom = Math.random() * 95
-    $('#fun-fact').css('right', str(right) + 'vw')
-    $('#fun-fact').css('bottom', str(bottom + 'vh'))
+    $('#fun-fact').css('right', right.toString() + '%')
+    $('#fun-fact').css('bottom', bottom.toString() + '%')
     $('.container').each(function() {
-      colliding = collision(this, $('#fun-fact'))
+      colliding = collision($(this), $('#fun-fact'))
     }
   )}
 
-  $('#fun-fact').fadeIn(500)
+  $('#fun-fact').fadeIn(1000)
 }
