@@ -63,7 +63,7 @@ function introScreen() {
 
 function showFunFact() {
 
-  ///Helper Function
+  ///Helper Functions
   function collision($div1, $div2) {
     var x1 = $div1.offset().left;
     var y1 = $div1.offset().top;
@@ -80,30 +80,33 @@ function showFunFact() {
         
     if (b1 < y2 || y1 > b2 || r1 < x2 || x1 > r2) return false;
       return true;
+  }
+
+  function setXY(id_selector, class_selector) {
+      var colliding = true
+    while (colliding) {
+      var right = Math.random() * 95
+      var bottom = Math.random() * 95
+      $(id_selector).css('right', right.toString() + '%')
+      $(id_selector).css('bottom', bottom.toString() + '%')
+      $(class_selector).each(function() {
+        colliding = collision($(this), $(id_selector))
+        }
+      )
     }
-  ///End Helper Func
+   }
 
-  var num = Math.floor(Math.random() * 10) + 1
-  var varName = 'fact' + num
-
-  $('#fun-fact').fadeOut(1000, function() {
-    $('#fact-title').html(window[varName].name)
-    $('#fact-body').html(window[varName].fact)
-    $('#fun-fact').css('visibility:', '')
+  function setHTML(title_selecter, body_selector) {
+    var num = Math.floor(Math.random() * 10) + 1
+    var varName = 'fact' + num
+    $(title_selecter).html(window[varName].name)
+    $(body_selector).html(window[varName].fact)
+  }
+  ///End Helper Funcs
+  var $fact = $('#fun-fact')
+  $fact.fadeOut(5000, function() {
+    setXY('#fun-fact', '.container')
+    setHTML('#fact-title', '#fact-body')
+    $fact.fadeIn(5000)
   })
-
-  setTimeout(3000)
-
-  var colliding = true
-  while (colliding) {
-    var right = Math.random() * 95
-    var bottom = Math.random() * 95
-    $('#fun-fact').css('right', right.toString() + '%')
-    $('#fun-fact').css('bottom', bottom.toString() + '%')
-    $('.container').each(function() {
-      colliding = collision($(this), $('#fun-fact'))
-    }
-  )}
-
-  $('#fun-fact').fadeIn(1000)
 }
