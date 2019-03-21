@@ -1,5 +1,6 @@
 $(document).ready(function(){
   introScreen();
+  setTimeout(showFunFact, 30000)
 });
 
 
@@ -59,3 +60,47 @@ function introScreen() {
     typeLines(introTextLines, 200, 0);
   });
 };
+
+function showFunFact() {
+
+  ///Helper Function
+  function collision($div1, $div2) {
+    var x1 = $div1.offset().left;
+    var y1 = $div1.offset().top;
+    var h1 = $div1.outerHeight(true);
+    var w1 = $div1.outerWidth(true);      
+    var b1 = y1 + h1;
+    var r1 = x1 + w1;
+    var x2 = $div2.offset().left;
+    var y2 = $div2.offset().top;
+    var h2 = $div2.outerHeight(true);
+    var w2 = $div2.outerWidth(true);      
+    var b2 = y2 + h2;
+    var r2 = x2 + w2;
+        
+    if (b1 < y2 || y1 > b2 || r1 < x2 || x1 > r2) return false;
+      return true;
+    }
+  ///End Helper Func
+
+  var num = Math.floor(Math.random() * 10) + 1
+  var varName = 'fact' + num
+
+  $('#fun-fact').fadeOut(100, function() {
+    $('#fact-title').html(window[varName].name)
+    $('#fact-body').html(window[varName].fact)
+  })
+
+  var colliding = true
+  while (colliding) {
+    var right = Math.random() * 95
+    var bottom = Math.random() * 95
+    $('#fun-fact').css('right', str(right) + 'vw')
+    $('#fun-fact').css('bottom', str(bottom + 'vh'))
+    $('.container').each(function() {
+      colliding = collision(this, $('#fun-fact'))
+    }
+  )}
+
+  $('#fun-fact').fadeIn(500)
+}

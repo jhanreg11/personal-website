@@ -106,6 +106,31 @@ body {
 }
 /*///End Footer///*/
 
+/*///Fun Fact///*/
+
+#fun-fact {
+  visibility: hidden;
+  position: fixed;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  max-width: 5vw;
+  max-height: 5vh;
+  right: 10vw;
+  top: 28vh;
+}
+
+@media(max-width: 768px) {
+  #fun-fact {
+    display: hidden;
+  }
+}
+/*///End Fun Fact///*/
+
 /*///Landing page related CSS///*/
 
 #landing-container {
