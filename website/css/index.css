@@ -181,3 +181,48 @@ body {
 
 }
 /*///End About Me///*/
+
+/*///Skills///*/
+
+#skills > .container > .body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  
+}
+
+.skill-type {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill {
+  display: flex;
+  flex-direction: row;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+}
+
+.star {
+  padding-right: 5px;
+}
+
+.gold {
+  color: gold;
+}
+
+.gray {
+  color: gray;
+}
+
+.skill-name {
+  min-width: 150px;
+  padding-left: 5px;
+}
+/*///End Skills///*/
