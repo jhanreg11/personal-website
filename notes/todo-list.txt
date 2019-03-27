@@ -1,0 +1,10 @@
+Todo-List
+------------------
+ -  Improve mobile functionality.
+     +  Create side-nav.
+     +  Fix stars flex-wrap.
+     +  flex-wrap for all section bodies.
+ -  Create "Wanna Play a Game?" Pop-ups.
+     +  2 Truths and a Lie
+     +  Guessing game
+ -  create scrolling animation for nav-bar.

@@ -1,0 +1,14 @@
+Skills
+---------------------
+HTML 4/5
+CSS 4/5
+Javascript 3/5
+Python 4/5
+Java 3/5
+C++/C 4/5
+
+Technologies
+---------------------
+Jquery 3/5
+Git 5/5
+Hibernate & MySQL 3/5
