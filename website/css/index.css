@@ -188,8 +188,10 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
+  width: 100%;
 
+  font-size: 1.5em;
   
 }
 
@@ -202,15 +204,17 @@ body {
 .skill {
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
 }
 
 .stars {
   display: flex;
   flex-direction: row;
-}
-
-.star {
-  padding-right: 5px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .gold {
@@ -222,7 +226,7 @@ body {
 }
 
 .skill-name {
-  min-width: 150px;
-  padding-left: 5px;
+  min-width: 200px;
+  padding-right: 5px;
 }
 /*///End Skills///*/
