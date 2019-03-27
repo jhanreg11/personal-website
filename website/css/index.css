@@ -9,7 +9,7 @@ body {
 .section {
   position: relative;
 	display: flex;
-	flex-direction: vertical;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
@@ -62,7 +62,7 @@ body {
   height: 100%;
 }
 
-.nav-items > .nav-item {
+.nav-item {
   /* Flexbox container */
   /* This vertically aligns the text in nav-item */
   display: flex;
@@ -80,12 +80,22 @@ body {
   flex-grow: 1; 
   cursor: pointer;
 }
+
+.nav-item > a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-item > a:hover {
+  color: gray;
+  cursor: pointer;
+}
+
 /*///End Nav-bar///*/
 
 /*///Footer///*/
 
 #footer {
-  float: right;
   bottom: 0;
   position: fixed;
   display: flex;
@@ -178,7 +188,7 @@ body {
 
 #about-me-img {
   max-width: 25vw;
-
+  border-radius: 5%;
 }
 /*///End About Me///*/
 
@@ -261,6 +271,7 @@ body {
 .project-img {
   border-radius: 25px;
   max-width: 35%;
+  max-height: 25%;
 }
 
 /*///End Projects///*/
