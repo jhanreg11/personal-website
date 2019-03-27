@@ -230,3 +230,37 @@ body {
   padding-right: 5px;
 }
 /*///End Skills///*/
+
+/*///Projects///*/
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.project-name > a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+}
+
+.project-name > a:hover {
+  cursor: pointer;
+  color: gray;
+}
+.project-body {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.project-description {
+  padding-right: 10%;
+}
+
+.project-img {
+  border-radius: 25px;
+  max-width: 35%;
+}
+
+/*///End Projects///*/
