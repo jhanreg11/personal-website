@@ -32,6 +32,12 @@ body {
   margin-bottom: 2vh;
 }
 
+@media (max-width : 520px) {
+  .container {
+    background: white;
+  }
+}
+
 /*///End common section///*/
 
 /*///Nav-bar related Styling///*/
@@ -164,11 +170,12 @@ body {
   font-size: 3.5em;
 }
 
-@media (max-width : 768px) {
+@media (max-width : 1185px) {
   .site-intro > .intro-text {
     font-size: 1.5em;
   }
 }
+
 /*///End Landing Page///*/
 
 /*///About Me Page///*/
@@ -197,7 +204,6 @@ body {
 #skills > .container > .body {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
 
@@ -222,9 +228,15 @@ body {
 .stars {
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   align-content: center;
+}
+
+.star {
+  display: flex;
+  flex-wrap: no-wrap;
 }
 
 .gold {
