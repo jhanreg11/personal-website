@@ -13,6 +13,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	align-content: center;
+  flex-wrap: wrap;
 	height: 100vh;
 }
 
@@ -32,15 +33,21 @@ body {
   margin-bottom: 2vh;
 }
 
-@media (max-width : 520px) {
+@media (max-width : 678px) {
   .container {
     background: white;
+    font-size: .9em;
+  }
+
+  .container > .body {
+    font-size: .5em;
   }
 }
 
 /*///End common section///*/
 
 /*///Nav-bar related Styling///*/
+
 #nav-bar {
   position: fixed;
   display: flex-box;
@@ -64,40 +71,82 @@ body {
   align-items: center;
   align-content: center;
 
-  width: 40%;
+  min-width: 60%;
   height: 100%;
 }
 
-.nav-item {
-  /* Flexbox container */
-  /* This vertically aligns the text in nav-item */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  /* End Flexbox container */
+  .nav-item {
+    /* Flexbox container */
+    /* This vertically aligns the text in nav-item */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* End Flexbox container */
 
-  /* Sizing */
-  height: 100%;
-  font-size: 1.5em;
-  /* End Sizing */
-  text-align: center;
-  flex-grow: 1; 
-  cursor: pointer;
-}
+    /* Sizing */
+    height: 100%;
+    font-size: 1.5em;
+    /* End Sizing */
+    text-align: center;
+    flex-grow: 1; 
+    cursor: pointer;
+  }
 
-.nav-item > a {
-  text-decoration: none;
-  color: black;
-}
+  .nav-item > a {
+    text-decoration: none;
+    color: black;
+  }
 
-.nav-item > a:hover {
-  color: gray;
-  cursor: pointer;
-}
+  .nav-item > a:hover {
+    color: gray;
+    cursor: pointer;
+  }
 
 /*///End Nav-bar///*/
+
+/*///Side Nav bar///*/
+
+#side-nav {
+  position: fixed;
+  top: 51px;
+  right: 0;
+
+  width: 0%;
+  min-height: calc(100% - 51px);
+
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+
+  background-color: #e7eae0;
+  z-index: 3;
+  border-left: 1px #657a35;
+
+  font-size: 1.2em;
+}
+
+/*@media (max-width: 768px) {
+  .side-click {
+    visibility: visible;
+    display: flex;
+    flex-direction: flex-end;
+    align-items: flex-start;
+    width: 5vw;
+  }
+
+  .nav-items {
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+  }
+}*/
+
+/*///End Side Nav///*/
 
 /*///Footer///*/
 
@@ -220,7 +269,7 @@ body {
 .skill {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: center;
   align-content: center;
 }
@@ -228,7 +277,7 @@ body {
 .stars {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -236,7 +285,7 @@ body {
 
 .star {
   display: flex;
-  flex-wrap: no-wrap;
+  flex-wrap: wrap;
 }
 
 .gold {
