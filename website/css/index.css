@@ -318,6 +318,7 @@ body {
   cursor: pointer;
   color: gray;
 }
+
 .project-body {
   display: flex;
   flex-direction: row;
@@ -329,9 +330,13 @@ body {
 }
 
 .project-img {
-  border-radius: 25px;
   max-width: 35%;
-  max-height: 25%;
+  max-height: 25;
+  padding-right: 0.35vw;
+}
+
+.tjef-logo {
+  border-radius: 25px;
 }
 
 /*///End Projects///*/
