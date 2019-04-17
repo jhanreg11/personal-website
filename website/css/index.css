@@ -236,9 +236,10 @@ body {
   align-content: center;
 }
 
-#about-me > .body > .text {
+#about-me > .container > .body > .text {
   text-align: justify;
   font-weight: 15em;
+  padding-right: 1vw;
 }
 
 #about-me-img {
