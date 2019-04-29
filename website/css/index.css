@@ -197,7 +197,7 @@ body {
 
 @media(max-width: 768px) {
   #fun-fact {
-    display: hidden;
+    display: none;
   }
 }
 /*///End Fun Fact///*/
@@ -309,30 +309,31 @@ body {
   align-items: flex-start;
 }
 
-.project-name > a {
-  text-decoration: none;
-  color: black;
-  font-size: 1.5em;
+.project-name {
+  font-size: 2em;
+  font-weight: bold;
 }
 
-.project-name > a:hover {
-  cursor: pointer;
-  color: gray;
+.project-name > a {
+  font-size: 0.5em;
+  font-weight: normal;
 }
 
 .project-body {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  width: 100%;
 }
 
 .project-description {
   padding-right: 10%;
+  width: 75%;
 }
 
 .project-img {
-  max-width: 35%;
-  max-height: 25;
+  max-width: 30%;
+  max-height: 10vh;
   padding-right: 0.35vw;
 }
 
