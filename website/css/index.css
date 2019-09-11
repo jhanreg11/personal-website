@@ -4,6 +4,7 @@ body {
 	background-clip: border-box;
 	background: white;
   font-family: monospace;
+    display: block;
 }
 
 .section {
@@ -14,7 +15,7 @@ body {
 	align-items: center;
 	align-content: center;
   flex-wrap: wrap;
-	height: 100vh;
+    min-height: 100vh;
 }
 
 .container {
@@ -28,16 +29,18 @@ body {
 	padding: 2%;
 }
 
+@media screen and (max-width: 790px) {
+    .container {
+        width: 90%;
+        background: white;
+    }
+}
 .title {
   font-size: 2.5em;
   margin-bottom: 2vh;
 }
 
-@media (max-width : 678px) {
-  .container {
-    background: white;
-  }
-}
+
 
 /*///End common section///*/
 
@@ -231,6 +234,7 @@ body {
 @media(max-width: 790px) {
   #fun-fact {
     display: none;
+      visibility: hidden;
   }
 }
 /*///End Fun Fact///*/
@@ -347,7 +351,7 @@ body {
   padding-right: 5px;
 }
 
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 760px) {
     #skills > .container > .body {
         display: flex;
         flex-direction: column;
@@ -358,12 +362,12 @@ body {
 
     }
     .skill {
-        justify-content: center;
+        justify-content: flex-start;
     }
     .skill-name {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: flex-start;
     }
 }
 /*///End Skills///*/
@@ -410,6 +414,17 @@ body {
 @media screen and (max-width: 790px) {
     .project-img {
         visibility: hidden;
+        width: 0;
+    }
+    .project {
+        align-items: center;
+    }
+    .project-body {
+        width: 100%;
+        justify-content: center;
+    }
+    .project-description {
+        padding-right: 0;
     }
 }
 /*///End Projects///*/
