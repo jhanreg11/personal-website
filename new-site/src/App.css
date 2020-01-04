@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
 
+@font-face {
+  font-family: 'POLYA Regular';
+  src: local('POLYA Regular') url('./fonts/POLYA.otf') format('otf');
+}
+
 #root {
   font-family: 'Exo 2', sans-serif;
   --gunmetal: #122932;
@@ -7,6 +12,7 @@
   --light-green: #519E8A;
   --light-blue: #8DA7BE;
   --alabaster: #F2F0E6;
+  --light: #D7E1E5;
 }
 
 #body {

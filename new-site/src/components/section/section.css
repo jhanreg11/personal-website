@@ -6,7 +6,8 @@
   align-content: center;
   align-items: center;
   justify-content: center;
-  color: var(--font-color);
+  color: var(--gunmetal);
+  background: var(--light);
 }
 
 .section-title {

@@ -1,10 +1,12 @@
 import React from 'react'
 import './landing-page.css'
 import ParticleBackground from '../../components/particle-background/particle-background'
+import Typed from '../../components/typed/typed'
+
 const LandingPage = props => (
 		<div id="landing">
-			<ParticleBackground color='#FFF'/>
-			<div id="landing-text">Hi, I'm Jacob</div>
+
+			<Typed id="landing-text" text="Hi, I'm Jacob" typeSpeed={300} caretSpeed={300} />
 			<a id="up-arrow" href="#about">⌃</a>
 		</div>
 )

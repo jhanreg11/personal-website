@@ -24,7 +24,7 @@ class Navbar extends React.Component {
 
 		return (
 			<div id="nav">
-				<div id="navbrand"><a href="#landing">LOGO</a></div>
+				<div id="navbrand"><a href="#landing">JH</a></div>
 				<div id="spacer"></div>
 				<div id="nav-items">
 

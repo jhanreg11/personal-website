@@ -2,6 +2,8 @@ import React from 'react'
 import './App.css'
 import Navbar from './components/navbar/navbar'
 import LandingPage from './pages/landing-page/landing-page'
+import AboutPage from './pages/about-page/about-page'
+import ParticleBackground from './components/particle-background/particle-background'
 
 const sections = [
   {
@@ -26,9 +28,10 @@ function App() {
   return (
     <>
       <Navbar items={sections}/>
+      <ParticleBackground color='#D7E1E5'/>
       <div id='body'>
         <LandingPage/>
-        <section></section>
+        <AboutPage/>
       </div>
     </>
   )
