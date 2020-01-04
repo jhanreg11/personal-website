@@ -1,0 +1,37 @@
+.section {
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  color: var(--font-color);
+}
+
+.section-title {
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+  height: 10%;
+  margin-top: 1%;
+}
+
+.section-body {
+  width: 80%;
+  padding-bottom: 8%;
+  padding-top: 2%;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 678px) {
+  .section-body {
+    width: 90%;
+  }
+}
+

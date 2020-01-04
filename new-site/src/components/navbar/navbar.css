@@ -1,0 +1,49 @@
+#nav {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+}
+
+#navbrand > a {
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.5em;
+  margin-left: 1vw;
+}
+
+#spacer {
+  flex: 1;
+}
+
+#nav-items {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  padding: 0 2rem;
+  text-decoration: none;
+  font-size: 1.2em;
+  z-index: 200;
+  cursor: pointer;
+}
+
+.nav-item > a {
+  text-decoration: none;
+}
+
+.nav-item > a:hover {
+}
+
+@media (max-width: 678px) {
+  #nav-items {
+    display: none;
+  }
+}

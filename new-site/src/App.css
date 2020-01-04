@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
+
+#root {
+  font-family: 'Exo 2', sans-serif;
+  --gunmetal: #122932;
+  --green-blue: #476A6F;
+  --light-green: #519E8A;
+  --light-blue: #8DA7BE;
+  --alabaster: #F2F0E6;
+}
+
+#body {
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin-top: 5vh;
+  width: 100vw;
+  height: 95vh;
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
