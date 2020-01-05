@@ -2,6 +2,7 @@ import React from 'react'
 import Section from '../../components/section/section'
 import AboutImg from '../../img/collage.jpg'
 import './about-page.css'
+import Reveal from 'react-reveal/Reveal'
 
 const AboutPage = (props) => (
 	<Section title="About Me" id="about">

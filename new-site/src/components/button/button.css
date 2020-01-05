@@ -7,6 +7,6 @@
 }
 
 .btn:hover {
-  color: var(--light-green);
-  border: solid var(--light-green);
+  color: var(--electric-green);
+  border: solid var(--electric-green);
 }
