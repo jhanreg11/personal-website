@@ -2,7 +2,7 @@ import React from 'react'
 import './experience.css'
 
 function genExampleLinks(items) {
-	let retJSX = [<div>Examples of my work:&nbsp;</div>]
+	let retJSX = [<div>Examples:&nbsp;</div>]
 	for (let item of items) {
 		retJSX.push(<a href={item.link}>{item.name}</a>)
 		retJSX.push(<div>,&nbsp;</div>)

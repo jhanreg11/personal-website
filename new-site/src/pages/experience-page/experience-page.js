@@ -12,7 +12,7 @@ const exps = [
 		locLink: 'https://www.physi.uni-heidelberg.de/?lang=en',
 		dates: 'July 2018 - August 2018',
 		bullets: [
-			'Programmed in Python creating data collection systems for various experiments using Raspberry Pi 3.',
+			'Programmed in Python creating data collection systems for various physics experiments using Raspberry Pi 3.',
 			'Did data analysis on experiment results using Pandas, NumPy, and Matplotlib.',
 			'Worked extensively with Ph.D students to design and build many experiments having to do with classical optics.',
 		]
@@ -33,7 +33,6 @@ const exps = [
 		]
 	}
 ]
-let exp = exps[0]
 
 const ExperienceList = props => (
 	<Section id="experience" title="Experience">
