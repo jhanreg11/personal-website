@@ -4,8 +4,7 @@ import AboutImg from '../../img/collage.jpg'
 import './about-page.css'
 
 const AboutPage = (props) => (
-	<Section title="About" id="about">
-		<div className="horiz-section">
+	<Section title="About Me" id="about">
 			<div className="body-text">Hi, I'm Jacob Hanson-Regalado. I am a sophomore studying Computer Science at Diablo
 				Valley College in Pleasant Hill, California. I have a passion for innovation and technology, and I have a thirst
 				for knowledge. I am always expanding my skills and exploring new interests. Most of my experience outside of the
@@ -13,7 +12,6 @@ const AboutPage = (props) => (
 				subjects like Artificial Intelligence and Machine Learning. I also enjoy reading, eating, hanging out with my
 				girlfriend, and playing spike ball with my friends. I hope you enjoy my site!</div>
 			<div id="about-img"><img src={AboutImg}/></div>
-		</div>
 	</Section>
 )
 

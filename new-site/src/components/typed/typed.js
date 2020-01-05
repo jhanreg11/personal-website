@@ -19,6 +19,7 @@ export default class Typed extends React.Component {
 
 	updateText() {
 		let nextChar = this.props.text[this.state.showingText.length]
+
 		if (typeof nextChar != 'undefined') {
 			let newText = this.state.showingText + nextChar
 			this.setState({

@@ -4,6 +4,7 @@ import Navbar from './components/navbar/navbar'
 import LandingPage from './pages/landing-page/landing-page'
 import AboutPage from './pages/about-page/about-page'
 import ParticleBackground from './components/particle-background/particle-background'
+import SkillsPage from './pages/skills-page/skills-page'
 
 const sections = [
   {
@@ -32,6 +33,7 @@ function App() {
       <div id='body'>
         <LandingPage/>
         <AboutPage/>
+        <SkillsPage/>
       </div>
     </>
   )
