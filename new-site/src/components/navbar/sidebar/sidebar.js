@@ -9,7 +9,7 @@ const Sidebar = props => {
 		<div className={classes}>
 			<div id='side-items'>
 
-				{props.items.map((item) => (<div className="side-item">
+				{props.items.map((item) => (<div className="side-item" key={item.name}>
 				<a href={item.to} onClick={props.close}>{item.name}</a>
 			</div>	))}
 

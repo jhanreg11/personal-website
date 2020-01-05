@@ -10,7 +10,7 @@ const languages = [
 	},
 	{
 		name: 'Python',
-		gold: 5
+		gold: 4
 	},
 	{
 		name: 'C++',
@@ -56,7 +56,7 @@ const expertise = [
 	},
 	{
 		name: 'Backend',
-		gold: 4
+		gold: 3
 	},
 	{
 		name: 'Deep learning',

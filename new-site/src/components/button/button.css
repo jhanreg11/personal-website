@@ -1,0 +1,12 @@
+.btn {
+  text-decoration: none;
+  color: var(--light-blue);
+  padding: 10px;
+  border: solid var(--light-blue);
+  border-radius: 5px;
+}
+
+.btn:hover {
+  color: var(--light-green);
+  border: solid var(--light-green);
+}

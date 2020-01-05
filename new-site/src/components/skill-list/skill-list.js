@@ -6,9 +6,8 @@ const SkillList = (props) => (
 	<div className="skill-list" id={props.id}>
 		<div className="list-title">{props.name}</div>
 		{props.items.map(item => (
-			<Skill name={item.name} gold={item.gold}/>
+			<Skill name={item.name} gold={item.gold} key={item.name}/>
 		))}
-		<div className="skill-spacer"/>
 	</div>
 )
 

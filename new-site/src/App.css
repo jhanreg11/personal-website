@@ -3,8 +3,12 @@
 
 @font-face {
   font-family: 'POLYA Regular';
-  src: local('POLYA Regular') url('./fonts/POLYA.otf') format('otf');
+  src: url('./fonts/POLYA.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/POLYA.woff') format('woff'),
+  url('./fonts/POLYA.otf') format('otf'),
+  url('./fonts/POLYA.svg#svgFontName') format('svg');
 }
+
 
 #root {
   font-family: 'Share Tech', sans-serif;

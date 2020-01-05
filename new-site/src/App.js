@@ -6,6 +6,7 @@ import LandingPage from './pages/landing-page/landing-page'
 import AboutPage from './pages/about-page/about-page'
 import ParticleBackground from './components/particle-background/particle-background'
 import SkillsPage from './pages/skills-page/skills-page'
+import ProjectsPage from './pages/projects-page/projects-page'
 
 const sections = [
   {
@@ -18,7 +19,7 @@ const sections = [
   },
   {
     name: 'Projects',
-    to: '#project'
+    to: '#projects'
   },
   {
     name: 'Experience',
@@ -36,6 +37,7 @@ function App() {
         <LandingPage/>
         <AboutPage/>
         <SkillsPage/>
+        <ProjectsPage/>
       </div>
     </>
   )

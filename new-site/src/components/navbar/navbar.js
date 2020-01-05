@@ -1,7 +1,7 @@
 import React from 'react'
 import ToggleButton from './togglebutton/togglebutton.js'
 import Sidebar from "./sidebar/sidebar"
-import Backdrop from "../backdrop/backdrop"
+import Backdrop from "./backdrop/backdrop"
 
 import './navbar.css'
 
