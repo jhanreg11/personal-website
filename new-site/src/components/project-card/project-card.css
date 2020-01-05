@@ -1,36 +1,17 @@
 .project-card {
-  width: 400px;
-  position: relative;
-  margin: 1%;
+  display: grid;
+
 }
 
 .project-img {
+
+}
+
+.project-img > img {
   width: 100%;
-  height: auto;
-  display: block;
+  height: 100%;
 }
 
-.project-card:hover .overlay {
-  width: 100%;
-  left: 0;
-}
+.project-desc {
 
-.project-card:hover .project-title {
-  visibility: hidden;
-}
-
-
-.project-title {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-weight: bold;
-  font-size: 2em;
-}
-
-@media (max-width: 678px) {
-  .project-card {
-    width: 350px
-  }
 }

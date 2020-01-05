@@ -6,8 +6,8 @@
   align-content: center;
   align-items: center;
   justify-content: center;
-  color: var(--gunmetal);
-  background: var(--light);
+  color: var(--light);
+  background: var(--gunmetal);
 }
 
 .section-title {

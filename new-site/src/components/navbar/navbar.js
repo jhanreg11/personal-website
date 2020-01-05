@@ -34,7 +34,7 @@ class Navbar extends React.Component {
 
 				</div>
 				{backdrop}
-				<Sidebar show={this.state.sideBarOpen} items={this.props.items}/>
+				<Sidebar show={this.state.sideBarOpen} items={this.props.items} close={this.sideClickHandler}/>
 				<div id="hamburger">
 					<ToggleButton click={this.sideClickHandler}/>
 				</div>

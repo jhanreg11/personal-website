@@ -23,3 +23,9 @@
   font-size: 1.5em;
 }
 
+@media (max-width: 678px) {
+  .dropdown {
+    height: 1.3em;
+  }
+}
+

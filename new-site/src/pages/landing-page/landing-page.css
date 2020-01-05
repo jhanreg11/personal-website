@@ -9,12 +9,13 @@
 #landing-text {
   font-size: 2em;
   margin: auto;
-  color: var(--light);
+  color: var(--gunmetal);
   text-align: center;
 }
 
 #up-arrow {
   background: var(--light);
+  background: none;
   border-radius: 50% 50% 0 0;
   font-size: 3em;
   width: 50px;

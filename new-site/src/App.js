@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
 import Navbar from './components/navbar/navbar'
+import Footer from './components/footer/footer'
 import LandingPage from './pages/landing-page/landing-page'
 import AboutPage from './pages/about-page/about-page'
 import ParticleBackground from './components/particle-background/particle-background'
@@ -29,7 +30,8 @@ function App() {
   return (
     <>
       <Navbar items={sections}/>
-      <ParticleBackground color='#D7E1E5'/>
+      <Footer/>
+      <ParticleBackground color='#122932'/>
       <div id='body'>
         <LandingPage/>
         <AboutPage/>
