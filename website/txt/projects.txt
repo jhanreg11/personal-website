@@ -1,9 +1,0 @@
-Projects/Portfolio
------------------------
-Truth table generator
-Oh @!#%& I’m late! (Make)
-TrackIt (Make)
- - A simple, free, small-business tool meant to keep track of sales, purchases, and profits.
- - HTML & CSS, and jQuery front-end with Python, and Flask & MySQL back-end.
- - Emphasizes MVC design, full-stack development, and database skills.
-tjef.org
