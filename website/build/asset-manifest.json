@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6f92de35.chunk.css",
+    "main.js": "/static/js/main.f025d89f.chunk.js",
+    "main.js.map": "/static/js/main.f025d89f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7b5a8d85.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7b5a8d85.js.map",
+    "static/css/2.ff29e5f6.chunk.css": "/static/css/2.ff29e5f6.chunk.css",
+    "static/js/2.03af643f.chunk.js": "/static/js/2.03af643f.chunk.js",
+    "static/js/2.03af643f.chunk.js.map": "/static/js/2.03af643f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b7b171a3f8bf9c1000f264133822249c.js": "/precache-manifest.b7b171a3f8bf9c1000f264133822249c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.ff29e5f6.chunk.css.map": "/static/css/2.ff29e5f6.chunk.css.map",
+    "static/css/main.6f92de35.chunk.css.map": "/static/css/main.6f92de35.chunk.css.map",
+    "static/js/2.03af643f.chunk.js.LICENSE": "/static/js/2.03af643f.chunk.js.LICENSE",
+    "static/media/App.css": "/static/media/POLYA.f57cd3a5.eot",
+    "static/media/cashout_screenshot.png": "/static/media/cashout_screenshot.24b172be.png",
+    "static/media/collage.jpg": "/static/media/collage.0d641c55.jpg",
+    "static/media/github_icon.png": "/static/media/github_icon.9ce68bca.png",
+    "static/media/ig_icon.png": "/static/media/ig_icon.e1f2dc06.png",
+    "static/media/neurocars-screenshot.png": "/static/media/neurocars-screenshot.ab3e6178.png",
+    "static/media/trackIt_screenshot.png": "/static/media/trackIt_screenshot.347c5b77.png",
+    "static/media/twitter_icon.png": "/static/media/twitter_icon.56bf037c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7b5a8d85.js",
+    "static/css/2.ff29e5f6.chunk.css",
+    "static/js/2.03af643f.chunk.js",
+    "static/css/main.6f92de35.chunk.css",
+    "static/js/main.f025d89f.chunk.js"
+  ]
+}
