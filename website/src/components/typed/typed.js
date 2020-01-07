@@ -46,7 +46,7 @@ export default class Typed extends React.Component {
 	render() {
 		return (
 			<div id={this.props.id} className="typed">
-				<div className='text'>{this.state.showingText}</div><div className='caret'>{this.state.caret}</div>
+				<div className='text' style={this.props.textStyle}>{this.state.showingText}</div><div className='caret'>{this.state.caret}</div>
 			</div>
 		)
 	}

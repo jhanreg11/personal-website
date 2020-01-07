@@ -6,7 +6,7 @@
   height: 5vh;
   display: flex;
   align-items: center;
-  z-index: 100;
+  z-index: 200;
   background: none;
 }
 

@@ -14,6 +14,10 @@ class Section extends React.Component {
 		this.handleMouseEnter = this.handleMouseEnter.bind(this)
 	}
 
+	componentDidMount() {
+
+	}
+
 	handleMouseEnter() {
 		let oldState = this.state.counter
 		this.setState({
@@ -21,15 +25,31 @@ class Section extends React.Component {
 		})
 	}
 
+	addAnimationCallback() {
+		const title = document.getElementById(this.props.id + '-title')
+		const body = document.getElementById(this.props.id + '-body')
+
+		title.addEventListener('animationend', () => {
+			title.classList.remove('going-to-animate')
+		})
+
+		body.addEventListener('animationend', () => {
+			body.classList.remove('going-to-animate')
+		})
+
+	}
+
 	render() {
 		return (
 			<div className="section" id={this.props.id}>
-				<Reveal effect="fadeInUp"><Jello spy={this.state.counter}>
-					<h1 className="section-title" onClick={this.handleMouseEnter} onMouseEnter={this.handleMouseEnter}>{this.props.title}</h1>
-				</Jello></Reveal>
-			<Reveal effect="fadeInUp"><div className="section-body">
-				{this.props.children}
-			</div></Reveal>
+				<Reveal effect="fadeInUp">
+					<h1 className="section-title going-to-animate" id={this.props.id + '-title'} onClick={this.handleMouseEnter} onMouseEnter={this.handleMouseEnter}>{this.props.title}</h1>
+				</Reveal>
+			<Reveal effect="fadeInUp">
+				<div className="section-body going-to-animate" id={this.props.id + '-body'}>
+					{this.props.children}
+				</div>
+			</Reveal>
 		</div>
 		)
 	}

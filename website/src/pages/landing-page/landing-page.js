@@ -6,7 +6,7 @@ import Typed from '../../components/typed/typed'
 const LandingPage = props => (
 		<div id="landing">
 
-			<Typed id="landing-text" text="Hi, I'm Jacob!" typeSpeed={300} caretSpeed={300} />
+			<Typed id="landing-text" text="HI, I'M JACOB!" typeSpeed={300} caretSpeed={300} />
 			<a id="up-arrow" href="#about">⌃</a>
 		</div>
 )
