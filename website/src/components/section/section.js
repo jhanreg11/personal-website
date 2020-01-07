@@ -42,14 +42,16 @@ class Section extends React.Component {
 	render() {
 		return (
 			<div className="section" id={this.props.id}>
-				<Reveal effect="fadeInUp">
+				{/*<Reveal effect="fadeInUp">*/}
+				<Jello>
 					<h1 className="section-title going-to-animate" id={this.props.id + '-title'} onClick={this.handleMouseEnter} onMouseEnter={this.handleMouseEnter}>{this.props.title}</h1>
-				</Reveal>
-			<Reveal effect="fadeInUp">
+				</Jello>
+				{/*</Reveal>*/}
+			{/*<Reveal effect="fadeInUp">*/}
 				<div className="section-body going-to-animate" id={this.props.id + '-body'}>
 					{this.props.children}
 				</div>
-			</Reveal>
+			{/*</Reveal>*/}
 		</div>
 		)
 	}
