@@ -42,16 +42,16 @@
 }
 
 .experience-arrow {
-  margin-right: .5%;
-}
-
-.experience-arrow {
   padding-right: 3%;
   color: var(--electric-green);
 }
 
 .experience-bullet > a {
   line-height: 1em;
+}
+
+.experience-list {
+  width: 100%;
 }
 
 

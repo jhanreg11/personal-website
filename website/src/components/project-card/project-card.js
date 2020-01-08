@@ -6,7 +6,7 @@ import './project-card.css'
 const ProjectCard = props => {
 	let link = props.link ? <a className="project-link" target="_blank" href={props.link}><img src={exitImg}/></a> : ''
 	return (
-	<div className="project-card">
+	<div className="project-card" style={props.style}>
 		<div className="project-img"><img src={props.img}/></div>
 		<div className="project-content">
 			<div className="project-title">{props.name}</div>

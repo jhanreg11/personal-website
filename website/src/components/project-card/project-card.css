@@ -4,7 +4,7 @@
   grid-template-rows: repeat(6, 1fr);
   grid-column-gap: 5px;
   width: 80%;
-  height: 300px;
+  height: 100%;
   margin-left: 10%;
 }
 
@@ -71,10 +71,9 @@
 }
 
 @media (max-width: 678px) {
+
   .project-card {
     display: block;
-    width: 100%;
-    margin-left: 0;
   }
 
   .project-img {
@@ -87,14 +86,14 @@
   .project-content {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 10%;
     height: 100%;
-    width: 100%;
+    width: 80%;
     background: rgba(0,0,0,0.8);
   }
 
   .arrow {
-    visibility: hidden;
+    /*visibility: hidden;*/
   }
 
   .project-title, .project-tags, .project-links {

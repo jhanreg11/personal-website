@@ -45,6 +45,7 @@ const cardList = projects.map(item => (
 const ProjectsPage = props => (
 	<Section id="projects" title="Featured Projects">
 		<Slideshow items={cardList}/>
+		{/*<div id="projects-body">{cardList}</div>*/}
 		<Button to="https://github.com/jhanreg11?tab=repositories">See More</Button>
 	</Section>
 )
