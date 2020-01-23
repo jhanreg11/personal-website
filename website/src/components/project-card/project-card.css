@@ -30,7 +30,7 @@
   height: 100%;
   top: 0;
   background-color: var(--electric-green);
-  opacity: .2;
+  opacity: .4;
   transition: .5s ease;
 }
 
