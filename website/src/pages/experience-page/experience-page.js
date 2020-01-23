@@ -31,6 +31,19 @@ const exps = [
 			{name: 'dvhackers.com', link: 'http://www.dvhackers.com/'},
 			{name: 'tjef.org', link: 'https://tjef.org'}
 		]
+	},
+	{
+		key: 'Tutor',
+		id: 'tutor',
+		name: 'Computer Science Tutor',
+		location: 'Diablo Valley College',
+		locLink: 'https://dvc.edu',
+		dates: 'September 2019 - present',
+		bullets: [
+			'Tutor DVC students in Computer Science topics ranging from algorithms & data structures to assembly programming.',
+			'Work mainly with C, C++, Java, and MASM.',
+			'Practice creative problem solving, effective communication skills, and programming best practices.'
+		]
 	}
 ]
 

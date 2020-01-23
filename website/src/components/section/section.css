@@ -17,10 +17,12 @@
   text-align: center;
   height: 10%;
   margin-top: 1%;
+  display: flex;
+  flex-direction: row;
 }
 
 .section-body {
-  width: 70%;
+  width: 55%;
   padding-bottom: 8%;
   padding-top: 2%;
   margin: auto;
@@ -31,4 +33,16 @@
   align-items: center;
 }
 
+.section-title > div:hover {
+  color: var(--electric-green);
+}
 
+.section-title > div {
+  transition: .25s ease;
+}
+
+@media (max-width: 678px) {
+  .section-title > div:hover {
+    color: var(--light);
+  }
+}

@@ -44,6 +44,10 @@ const technologies = [
 		gold: 3
 	},
 	{
+		name: 'NumPy',
+		gold: 4
+	},
+	{
 		name: 'Git',
 		gold: 5
 	}

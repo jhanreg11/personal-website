@@ -5,9 +5,9 @@ import './slideshow.css'
 
 const CarouselUI = ({ position, handleClick, children}) => (
 	<div className="carousel-container">
-		<div onClick={handleClick} className="left arrow" data-position={position - 1}>{'<'}</div>
+		<div onClick={handleClick} className="left-arrow arrow" data-position={position - 1}>{'<'}</div>
 		{children}
-		<div className="right arrow" onClick={handleClick} data-position={position + 1}>{'>'}</div>
+		<div className="right-arrow arrow" onClick={handleClick} data-position={position + 1}>{'>'}</div>
 	</div>
 )
 

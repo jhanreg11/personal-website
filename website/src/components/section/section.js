@@ -3,6 +3,17 @@ import './section.css'
 import Jello from 'react-reveal/Jello'
 import Reveal from 'react-reveal/Reveal'
 
+const SectionTitle = props => (
+	<h1 className="section-title" id={props.id + '-title'}>
+		{props.children.split('').map(c => {
+			if (c == ' ')
+				return <div>&nbsp;</div>
+			else
+				return <div>{c}</div>
+		})}
+	</h1>
+)
+
 class Section extends React.Component {
 	constructor(props) {
 		super(props)
@@ -44,7 +55,7 @@ class Section extends React.Component {
 			<div className="section" id={this.props.id}>
 				{/*<Reveal effect="fadeInUp">*/}
 				<Jello>
-					<h1 className="section-title going-to-animate" id={this.props.id + '-title'} onClick={this.handleMouseEnter} onMouseEnter={this.handleMouseEnter}>{this.props.title}</h1>
+					<SectionTitle id={this.props.id + '-title'}>{this.props.title}</SectionTitle>
 				</Jello>
 				{/*</Reveal>*/}
 			{/*<Reveal effect="fadeInUp">*/}
