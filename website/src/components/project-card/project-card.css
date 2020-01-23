@@ -145,7 +145,7 @@
     /*visibility: hidden;*/
   }
 
-  .project-title, .project-tags, .project-links {
+  .project-title, .project-tags, .project-links, .right .project-tags, .right .project-links, .right .project-title {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
