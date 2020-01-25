@@ -12,7 +12,7 @@ const Footer = props => (
 		<a href="mailto:jhanreg11@gmail.com"><img className="footer-img" src={gmailImg}/></a>
 		<a href="https://twitter.com/jhanreg11" target="_blank"><img className="footer-img" src={twitterImg}/></a>
 		<a href="https://instagram.com/jacobhanson_12" target="_blank"><img className="footer-img" src={instaImg}/></a>
-		<a href="/resume.pdf" target="_blank"><img className="footer-img" src={docImg}/></a>
+		<a href="/resume.pdf" target="_blank" title="resume"><img className="footer-img" src={docImg}/></a>
 	</div>
 )
 

@@ -31,7 +31,7 @@ const projects = [
 			'and Bubble Sort.'
 	},
 	{
-		link: 'https://jacob-hanson.com/trackIt',
+		link: 'https://jacob-hanson.com/trackIt/login.html',
 		name: 'trackIt',
 		img: trackImg,
 		tags: 'REST API Flask Handlebars.js jQuery MySQL Nginx',
