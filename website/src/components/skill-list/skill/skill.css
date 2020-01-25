@@ -1,0 +1,35 @@
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+  padding-bottom: 3%;
+  padding-top: 1%;
+}
+
+.dropdown {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.35s ease-out;
+}
+
+.skill:hover .dropdown {
+  height: 1.3em;
+}
+
+.show {
+  height: 1.3em;
+}
+
+.skill-name {
+  font-size: 1.5em;
+}
+
+@media (max-width: 678px) {
+  .dropdown {
+    height: 1.3em;
+  }
+}
+

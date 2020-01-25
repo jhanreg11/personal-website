@@ -1,0 +1,23 @@
+.list-title {
+  font-size: 2em;
+  border-bottom: solid var(--green-blue);
+  text-align: center;
+  width: 60%;
+}
+
+.skill-list {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5%;
+}
+
+@media (max-width: 678px) {
+  .skill-list {
+    height: auto;
+  }
+}
+
