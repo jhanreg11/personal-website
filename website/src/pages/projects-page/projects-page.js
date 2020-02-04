@@ -9,8 +9,17 @@ import neuroImg from '../../img/neurocars-screenshot.png'
 import cashImg from '../../img/cashout_screenshot.png'
 import trackImg from '../../img/trackIt_screenshot.png'
 import sortImg from '../../img/sort_img.png'
+import cnnImg from '../../img/cnn.png'
 
 const projects = [
+    {
+        link: 'https://jacob-hanson.com/char-recog',
+        name: 'JCNN',
+        img: cnnImg,
+        tags: 'Convolutional Neural Networks Deep Learning Python',
+        github: 'https://github.com/jhanreg11/char-recog',
+        desc: 'Jacob\'s Convolutional Neural Network (JCNN) is an efficient implementation of a CNN written from scratch in Python using only NumPy. It features an interactive demo where users can draw digits and have a fully trained model classify them.'
+    },
 	{
 		link: 'https://jacob-hanson.com/neurocars',
 		name: 'NeuroCars',
