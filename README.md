@@ -1,3 +1,6 @@
-Ideas -
-  Make balloons float up every once in a while and when you click on them a box pops up with one of my fun facts.
-  
+# Personal Website
+This is my portfolio website, built using React.
+
+to run my website locally, clone the repo then:
+1. run ```npm install```
+2. run ```npm start```
