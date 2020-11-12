@@ -41,8 +41,8 @@ function App() {
         <LandingPage/>
         <AboutPage/>
         <SkillsPage/>
-        <ProjectsPage/>
         <ExperiencePage/>
+        <ProjectsPage/>
       </div>
     </>
   )

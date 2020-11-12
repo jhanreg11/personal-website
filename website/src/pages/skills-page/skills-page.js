@@ -10,7 +10,7 @@ const languages = [
 	},
 	{
 		name: 'Python',
-		gold: 4
+		gold: 5
 	},
 	{
 		name: 'C++',
@@ -22,26 +22,30 @@ const languages = [
 	},
 	{
 		name: 'Java',
-		gold: 3
+		gold: 4
 	}
 ]
 
 const technologies = [
+	{
+		name: "PyTorch",
+		gold: 5
+	},
+	{
+		name: "Keras",
+		gold: 4
+	},
 	{
 		name: 'React',
 		gold: 4
 	},
 	{
 		name: 'jQuery',
-		gold: '4'
+		gold: 4
 	},
 	{
 		name: 'Python Flask',
 		gold: 5
-	},
-	{
-		name: 'Nginx',
-		gold: 3
 	},
 	{
 		name: 'NumPy',
@@ -64,7 +68,7 @@ const expertise = [
 	},
 	{
 		name: 'Deep learning',
-		gold: 3
+		gold: 4
 	}
 ]
 class SkillsPage extends React.Component {

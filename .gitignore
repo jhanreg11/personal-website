@@ -1,2 +1,19 @@
-.idea/
-.DS_Store
+# dependencies
+website/node_modules
+website/.pnp
+website/.pnp.js
+
+# testing
+website/coverage
+
+#misc
+*.idea/
+*.DS_Store
+website/.env.local
+website/.env.development.local
+website/.env.test.local
+website/.env.production.local
+
+*npm-debug.log*
+*yarn-debug.log*
+*yarn-error.log*

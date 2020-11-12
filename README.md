@@ -1,6 +1,8 @@
-# Personal Website
-This is my portfolio website, built using React.
+# My Personal Website
+This single-page application was built using React to showcase my portfolio and experiences.
 
-to run my website locally, clone the repo then:
-1. run ```npm install```
-2. run ```npm start```
+# Run The Website Locally
+```python
+npm start
+```
+

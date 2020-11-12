@@ -5,6 +5,23 @@ import './experience-page.css'
 
 const exps = [
 	{
+		key: 'Assistant',
+		id: 'cmu',
+		name: 'Deep Learning Research Assistant',
+		location: 'VDEL in Carnegie Mellon University',
+		locLink: 'http://vdel.me.cmu.edu/',
+		dates: 'April 2020 - present',
+		bullets: [
+			'Implement deep learning solutions for interdisciplinary problems, mainly within the field of ' +
+			'engineering & facbrication.',
+			'Utilized transfer learning to build a CNN model that classifies flaws within additive manufacturing ' +
+			'processes using audio samples',
+			'Currently working on developing abstract knowledge of physical componenet diagrams using semantic segmentation,' +
+			'graph neural networks, and classical computer vision techniques.',
+			'Utilize PyTorch, SciPy, and Scikit-Learn mainly.'
+		]
+	},
+	{
 		key: 'Intern',
 		id: 'heidelberg',
 		name: 'Research Intern',
@@ -29,7 +46,8 @@ const exps = [
 		],
 		examples: [
 			{name: 'dvhackers.com', link: 'http://www.dvhackers.com/'},
-			{name: 'tjef.org', link: 'https://tjef.org'}
+			{name: 'tjef.org', link: 'https://tjef.org'},
+			{name: 'chars-hotdogs.com', link: 'https://chars-hotdogs.com'}
 		]
 	},
 	{
@@ -38,7 +56,7 @@ const exps = [
 		name: 'Computer Science Tutor',
 		location: 'Diablo Valley College',
 		locLink: 'https://dvc.edu',
-		dates: 'September 2019 - present',
+		dates: 'September 2019 - May 2020',
 		bullets: [
 			'Tutor DVC students in Computer Science topics ranging from algorithms & data structures to assembly programming.',
 			'Work mainly with C, C++, Java, and MASM.',

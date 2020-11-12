@@ -1,2 +1,0 @@
-react-animations
-react-animate-on-scroll
