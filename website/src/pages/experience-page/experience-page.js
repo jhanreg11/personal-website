@@ -13,10 +13,10 @@ const exps = [
 		dates: 'April 2020 - present',
 		bullets: [
 			'Implement deep learning solutions for interdisciplinary problems, mainly within the field of ' +
-			'engineering & facbrication.',
-			'Utilized transfer learning to build a CNN model that classifies flaws within additive manufacturing ' +
-			'processes using audio samples',
-			'Currently creating an algorithm to develop abstract knowledge of engineering components from images using semantic segmentation,' +
+			'additive manufacturing.',
+			'Applied transfer learning to build a CNN model that classifies flaws within additive manufacturing ' +
+			'processes using audio samples.',
+			'Currently creating an algorithm to develop abstract knowledge of engineering components from images using semantic segmentation, ' +
 			'graph neural networks, and classical computer vision techniques.',
 			'Utilize PyTorch, SciPy, and Scikit-Learn.'
 		]
