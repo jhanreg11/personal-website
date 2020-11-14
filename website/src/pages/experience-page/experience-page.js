@@ -16,9 +16,9 @@ const exps = [
 			'engineering & facbrication.',
 			'Utilized transfer learning to build a CNN model that classifies flaws within additive manufacturing ' +
 			'processes using audio samples',
-			'Currently working on developing abstract knowledge of physical componenet diagrams using semantic segmentation,' +
+			'Currently creating an algorithm to develop abstract knowledge of engineering components from images using semantic segmentation,' +
 			'graph neural networks, and classical computer vision techniques.',
-			'Utilize PyTorch, SciPy, and Scikit-Learn mainly.'
+			'Utilize PyTorch, SciPy, and Scikit-Learn.'
 		]
 	},
 	{

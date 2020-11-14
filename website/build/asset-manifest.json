@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.949211f9.chunk.css",
-    "main.js": "/static/js/main.adb77033.chunk.js",
-    "main.js.map": "/static/js/main.adb77033.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.89ce3afa.js",
-    "runtime-main.js.map": "/static/js/runtime-main.89ce3afa.js.map",
-    "static/css/2.ab8a0683.chunk.css": "/static/css/2.ab8a0683.chunk.css",
-    "static/js/2.9c41ea79.chunk.js": "/static/js/2.9c41ea79.chunk.js",
-    "static/js/2.9c41ea79.chunk.js.map": "/static/js/2.9c41ea79.chunk.js.map",
+    "main.css": "/static/css/main.aac38bfb.chunk.css",
+    "main.js": "/static/js/main.21d68164.chunk.js",
+    "main.js.map": "/static/js/main.21d68164.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.69a446cb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.69a446cb.js.map",
+    "static/css/2.bd5ad53a.chunk.css": "/static/css/2.bd5ad53a.chunk.css",
+    "static/js/2.7bf6d416.chunk.js": "/static/js/2.7bf6d416.chunk.js",
+    "static/js/2.7bf6d416.chunk.js.map": "/static/js/2.7bf6d416.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b74325f296691c4115b012487085bf90.js": "/precache-manifest.b74325f296691c4115b012487085bf90.js",
+    "precache-manifest.3eea51d7690b67f5808421987ce6a08a.js": "/precache-manifest.3eea51d7690b67f5808421987ce6a08a.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.ab8a0683.chunk.css.map": "/static/css/2.ab8a0683.chunk.css.map",
-    "static/css/main.949211f9.chunk.css.map": "/static/css/main.949211f9.chunk.css.map",
-    "static/js/2.9c41ea79.chunk.js.LICENSE.txt": "/static/js/2.9c41ea79.chunk.js.LICENSE.txt",
+    "static/css/2.bd5ad53a.chunk.css.map": "/static/css/2.bd5ad53a.chunk.css.map",
+    "static/css/main.aac38bfb.chunk.css.map": "/static/css/main.aac38bfb.chunk.css.map",
+    "static/js/2.7bf6d416.chunk.js.LICENSE.txt": "/static/js/2.7bf6d416.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/POLYA.f57cd3a5.eot",
     "static/media/cashout_screenshot.png": "/static/media/cashout_screenshot.24b172be.png",
     "static/media/cnn.png": "/static/media/cnn.75cbe68c.png",
@@ -27,10 +27,10 @@
     "static/media/twitter_icon.png": "/static/media/twitter_icon.56bf037c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.89ce3afa.js",
-    "static/css/2.ab8a0683.chunk.css",
-    "static/js/2.9c41ea79.chunk.js",
-    "static/css/main.949211f9.chunk.css",
-    "static/js/main.adb77033.chunk.js"
+    "static/js/runtime-main.69a446cb.js",
+    "static/css/2.bd5ad53a.chunk.css",
+    "static/js/2.7bf6d416.chunk.js",
+    "static/css/main.aac38bfb.chunk.css",
+    "static/js/main.21d68164.chunk.js"
   ]
 }
