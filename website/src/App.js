@@ -18,16 +18,16 @@ const sections = [
     to: '#about'
   },
   {
-    name: 'Skills',
-    to: '#skills'
+    name: 'Experience',
+    to: '#experience'
   },
   {
     name: 'Projects',
     to: '#projects'
   },
   {
-    name: 'Experience',
-    to: '#experience'
+    name: 'Skills',
+    to: '#skills'
   }
 ]
 
@@ -40,9 +40,9 @@ function App() {
       <div id='body'>
         <LandingPage/>
         <AboutPage/>
-        <SkillsPage/>
         <ExperiencePage/>
         <ProjectsPage/>
+        <SkillsPage/>
       </div>
     </>
   )
