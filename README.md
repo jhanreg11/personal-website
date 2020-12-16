@@ -13,4 +13,4 @@ npm start
 # New Features
 - [ ] Turn skills list into a skill tree like in video games. Could be a graph with moving nodes like the landing page and then nodes are expanded on hover to show the skill and a possible game-like rating, e.g. 'Novice', 'Intermediate', 'Expert', etc... 
 - [ ] Categorize projects and create interesting new way to see them.
-- [ ] Compact Experience page in some way.
+- [ ] Compact Experience page in some way. Current idea: Make interactive and scaled horizontal timeline with clickable cards for experience positions.
