@@ -5,12 +5,25 @@ import './experience-page.css'
 
 const exps = [
 	{
+		key: 'Berkeley Developer',
+		id: 'swdb',
+		name: 'Full Stack Web Developer',
+		location: 'Statewide Redistricting Database in UC Berkeley',
+		locLink: 'https://statewidedatabase.org/',
+		dates: 'August 2020 - May 2021',
+		bullets: [
+			'Implement the redesign of the Statewide Redistricting Database website on the front/back end.',
+			'Translate Figma designs for the dataset search/download portal into web pages using Angular and TypeScript.',
+			'Design data models and implement business logic exposed via API in Django and Python.'
+		]
+	},
+	{
 		key: 'Assistant',
 		id: 'cmu',
 		name: 'Deep Learning Research Assistant',
 		location: 'VDEL in Carnegie Mellon University',
 		locLink: 'http://vdel.me.cmu.edu/',
-		dates: 'April 2020 - present',
+		dates: 'April 2020 - February 2021',
 		bullets: [
 			'Implement deep learning solutions for interdisciplinary problems, mainly within the field of ' +
 			'additive manufacturing.',
