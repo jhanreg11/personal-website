@@ -11,7 +11,7 @@ const AboutPage = (props) => (
 				school, I work as a research assistant in applied deep learning (mainly computer vision) for Carnegie
 				Mellon University, and also as a web-developer for UC Berkeley Law School. After college, I hope to work
 				as a machine learning engineer researching new applications of computer vision. I also enjoy eating
-				spicy foods, traveling, playing sports, and hanging out with my girlfriend. I hope you enjoy my site!
+				spicy foods, traveling, and playing spikeball. I hope you enjoy my site!
 			</div>
 			<div id="about-img"><img src={AboutImg}/></div>
 	</Section>
