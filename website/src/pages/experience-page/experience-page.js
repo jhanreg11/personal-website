@@ -5,12 +5,25 @@ import './experience-page.css'
 
 const exps = [
 	{
+		key: 'Adobe Intern',
+		id: 'adobe2021',
+		name: 'Software Engineer Intern',
+		location: 'Adobe',
+		link: 'https://www.adobe.com/',
+		dates: 'May 2021 - August 2021',
+		bullets: [
+			'Collaborated with data visualization researchers to improve an automatic chart-captioning model using Python and Scikit-Learn.',
+			'Built and deployed a UI component to the Adobe Experience Platform using Angular and TypeScript.',
+			'Built a POC for visualizing user flow throughout the Adobe Experience Platform using Python, Angular, and Azure.',
+		]
+	},
+	{
 		key: 'Berkeley Developer',
 		id: 'swdb',
 		name: 'Full Stack Web Developer',
 		location: 'Statewide Redistricting Database in UC Berkeley',
 		locLink: 'https://statewidedatabase.org/',
-		dates: 'August 2020 - May 2021',
+		dates: 'August 2020 - May 2021, August 2021 - present',
 		bullets: [
 			'Implement the redesign of the Statewide Redistricting Database website on the front/back end.',
 			'Translate Figma designs for the dataset search/download portal into web pages using Angular and TypeScript.',
