@@ -5,6 +5,20 @@ import './experience-page.css'
 
 const exps = [
 	{
+		key: 'Adobe MLE',
+		id: 'adobeMLE',
+		name: 'Machine Learning Engineer',
+		location: 'Adobe',
+		link: 'https://www.adobe.com/',
+		dates: 'August 2022 - September 2025',
+		bullets: [
+			'Led a team of 5 engineers to develop an AI product for translating non-technical marketing queries into domain-specific code, combining modern generative AI, and classical statistical techniques.',
+			'Built data mining pipelines to support AI workflows using PySpark.',
+			'Managed multiple backend services for AI model inference and access to resources stored in MongoDB instances.',
+			'Collaborated with research team to build the backend service for Project True Colors. The service identifies a user\'s best color palettes with semantic segmentation and a custom image processing algorithm.'
+		]
+	},
+	{
 		key: 'Adobe Intern',
 		id: 'adobe2021',
 		name: 'Software Engineer Intern',

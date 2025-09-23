@@ -2,7 +2,6 @@ import React from 'react'
 import './projects-page.css'
 import Section from "../../components/section/section";
 import ProjectCard from '../../components/project-card/project-card'
-import Slideshow from '../../components/slideshow/slideshow'
 import Button from '../../components/button/button'
 
 import neuroImg from '../../img/neurocars-screenshot.png'
